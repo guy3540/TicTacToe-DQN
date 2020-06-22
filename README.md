@@ -8,6 +8,9 @@ The project also implements Experience Replay to decorrelate batches of state tr
 
 # To run
 In order to train an agent, simply run main.py. 
+
 You may want to edit the Constants.py file to change any constant, for example the number of epochs in the training session.
+
 The agent will then begin to train using a decaying-epsilon-greedy policy (choose a random action in a decreasing rate along the training session).
+
 Once the training session is done, a game will be played between two instances of the finalized version of the agent.
